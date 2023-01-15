@@ -53,9 +53,25 @@ SageMaker Project Event Bridge Rules
 
 ![codepipeline](./images/5_eventbridge.png)
 
+**Complete CICD pipeline Understanding**
+![cicd](./images/6_cicd_understand.png)
 
 
 
+**Test Results from Staging & Prod endpoints**
 
+Notebook for testing stage and prod endpoints [Open here!](./TestDeployment.ipynb)
+
+![endpoints](./images/7_endpoints.png)
+
+NOTE : Both endpoints gave same results for same image.
+
+![test1](./images/7_test1.png)
+![test2](./images/7_test2.png)
+![test3](./images/7_test3.png)
+![test4](./images/7_test4.png)
+
+
+### Other notes :
 
 SM_OTPUT_DIR : Anything which is saved here gets saved in model dir in S3.
